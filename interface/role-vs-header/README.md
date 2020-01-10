@@ -5,7 +5,7 @@ this case study will present which interface type is usable in which situation.
 ## TL;DR
 
 A role interface aim to define the most minimum expectation of the consumer from a supplier.
-This achieve fruits like [ISP](/principle/ISP.md) and [RAP](/principle/RAP.md).
+This allow to achieve low hanging fruits like [ISP](/principle/ISP.md) and [RAP](/principle/RAP.md).
 The main goal of the role interface is that you first define the need of the consumer
 then you implement it with a supplier.
 
