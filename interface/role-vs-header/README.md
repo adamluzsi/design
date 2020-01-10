@@ -94,10 +94,8 @@ In case this spec coverage done in a way where we only test the concrete supplie
 then writing it may be cheaper, but they are less valuable from architecture point of view,
 since they cannot be reused, later on.
 
-In most cases, where the project explicitly states, that there is no way, that an specific technology stack will change under the hood,
-then the trade-off of writing the test specification bundled together with the supplier is acceptable in a project lifecycle,
-else a purely behavior based interface would have to be used, where Create/Read/Delete operations would be necessary,
-to setup the test runtime context.
+In most cases, where the project explicitly states, that there is no way and any plan to change a specific technology in the project stack,
+then bundling the consumer expectations within the suppliers test coverage is acceptable, over a reusable behavior specification.
 
 * role based testing conventions to cover requirements from consumer towards suppliers
 
